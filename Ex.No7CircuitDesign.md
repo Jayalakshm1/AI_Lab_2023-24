@@ -1,8 +1,10 @@
 # Ex.No: 7  Logic Programming –  Logic Circuit Design
-### DATE: 25/04/2024                                                                           
+### DATE: 16/03/2024                                                                           
 ### REGISTER NUMBER : 212221040066
+
 ### AIM: 
 To write a logic program to design a circuit like half adder and half subtractor.
+
 ###  Algorithm:
 1. Start the Program
 2. Design a AND gate logic if both inputs are 1 then output is 1.
@@ -46,11 +48,8 @@ fulladder(A,B,Cin,S,Cout):-
 
 ```
 
-
 ### Output:
-
 ![Screenshot (140)](https://github.com/Jayalakshm1/AI_Lab_2023-24/assets/130430542/c8f66912-be8f-49c9-97c3-2b60cfe9d220)
 
-
 ### Result:
-Thus the truth table of circuit verified sucessfully.
+Thus, the truth table of circuit verified sucessfully.
