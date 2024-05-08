@@ -15,6 +15,7 @@ Step 8 : In stack action, Robot arm place the block on under block. Precondition
 Step 9 : Define a problem for block world problem.<br> 
 Step 10 : Obtain the plan for given problem.<br> 
      
+
 ### Program:
 ```
 (define (domain blocksworld)
@@ -45,6 +46,8 @@ Step 10 : Obtain the plan for given problem.<br>
   :effect (and (holding ?ob) (clear ?underob)
                (not (on ?ob ?underob)) (not (clear ?ob)) (not (arm-empty)))))
 ```
+
+
 ### Input 
 ```
 (define (problem pb1)
@@ -53,6 +56,18 @@ Step 10 : Obtain the plan for given problem.<br>
    (:init (on-table a) (on-table b)  (clear a)  (clear b) (arm-empty))
    (:goal (and (on a b))))
 ```
+
+
+
+
+
+
+
+
+
+
+
+
 ### Output/Plan:
 ![image](https://github.com/Jayalakshm1/AI_Lab_2023-24/assets/130430542/5d162294-5e96-41fd-b084-bfab740066e9)
 ### Result:
